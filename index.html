@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <form action="/quotes" method="POST">
+            <input type="text" placeholder="Termék" name="termek">
+            <input type="text" placeholder="Összeg" name="osszeg"> 
+            <select name="tipus">
+                <option value="Kategória" selected>Válassz kategóriát!</option>
+                <option value="Étel">Étel</option>
+                <option value="Szórakozás">Szórakozás</option>
+                <option value="Edzés">Edzés</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+
+
+    </div>
+
+    <div>
+        <table style="width:100%">
+            <tr>
+              <th>Tétel</th>
+              <th>Összeg</th> 
+              <th>Kategória</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>80</td>
+            </tr>
+          </table>
+    </div>
+</body>
+</html>
